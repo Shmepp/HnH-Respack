@@ -1,0 +1,45 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "visible",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:block/custom/dot_scanner_visible"
+            }
+          },
+	  {
+            "when": "invisible",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:block/custom/dot_scanner_invisible"
+            }
+          },
+	  {
+            "when": "base",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:block/custom/dot_scanner_base"
+            }
+          },
+	  {
+            "when": "radar",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:block/custom/dot_scanner_radar"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}
