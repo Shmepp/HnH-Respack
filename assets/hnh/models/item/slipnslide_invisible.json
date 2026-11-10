@@ -1,0 +1,17 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "hnh:block/custom/slipnslide"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [0,0,0]
+    },
+    "thirdperson_lefthand": {
+      "scale": [0,0,0]
+    },
+    "ground": {
+      "scale": [0,0,0]
+    }
+  }
+}

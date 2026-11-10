@@ -1,6 +1,7 @@
 {
   "pack": {
-    "description": "",
-    "pack_format": 88.0
+    "description": "ghosty game",
+    "min_format": 97.1,
+    "max_format": 97.1
   }
 }

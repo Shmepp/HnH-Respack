@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "visible",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:item/replicate_visible"
+            }
+          },
+	  {
+            "when": "invisible",
+            "model": {
+              "type": "minecraft:model",
+              "model": "hnh:item/replicate_invisible"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}
